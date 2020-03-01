@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "includePath": [
+                "/opt/arduino-1.8.12/tools/*",
+                "/opt/arduino-1.8.12/hardware/arduino/avr/*",
+                "/home/shu/Nextcloud/Linux/Arduino/*"
+            ],
+            "forcedInclude": [
+                "/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "USBCON"
+            ]
+        }
+    ],
+    "version": 4
+}
